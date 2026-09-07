@@ -64,7 +64,7 @@ Cochez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 ## Technologies utilisées
 
 * **Éditeur :** Visual Studio Code
-* **Langages :** HTML5, SCSS, JavaScript
+* **Langages :** HTML, SCSS, JavaScript
 * **Framework / outils :** Tailwind CSS, GSAP
 
 ---
@@ -157,7 +157,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 ## Technologies utilisées
 
 * **Éditeur :** Visual Studio Code
-* **Langages :** HTML5, CSS3, JavaScript
+* **Langages :** HTML, CSS, JavaScript
 * **Framework / outils :** Chart.js
 
 ---
@@ -228,8 +228,68 @@ J'ai effectué des recherches techniques approfondies sur le Web pour sélection
 
 * **Aperçu du projet :** https://postimg.cc/cKFGbCxK
 
+<br>
+
 # Processus de création
-Sélectionnez un de vos projets et insérez son processus de création. À l'aide d'images et de texte vous devez nous expliquer le processus de création étape par étape de votre projet. 
+## Processus de création étape par étape de XpériaLive
+
+### 1. Planification et direction artistique rétro (Années 80/90)
+
+La première étape a consisté à poser les fondations de l'univers de jeu afin de garantir une ambiance cohérente avant toute intervention technique :
+
+* **Définition de l'identité visuelle :** Sélection d'une palette de couleurs d'époque (néons magenta/cyan, teintes ambrées des écrans CRT, dégradés rétro-synthwave) et typographies typiques des années 80/90.
+* **Curation des ressources de jeu :** Sélection et tri des packs de véhicules d'époque, vêtements rétro et suppression des éléments trop contemporains pour préserver l'immersion.
+* **Architecture technique :** Établissement de la liste des dépendances et scripts essentiels au fonctionnement du serveur (gestion de l'inventaire, économie, communications radio/téléphonie).
+
+> **[Insérer Image 1]** : *Moodboard visuel, palette de couleurs rétro ou capture d'un véhicule d'époque intégré en jeu.*
+
+---
+
+### 2. Déploiement de l'infrastructure et gestion serveur (txAdmin)
+
+Mise en place de l'environnement d'exécution local et distant pour assurer une base stable :
+
+* **Configuration de txAdmin :** Déploiement et initialisation du serveur FiveM, mise en place des recettes de configuration et gestion du cycle de démarrage des ressources via le fichier `server.cfg`.
+* **Mise en place de la base de données :** Liaison entre le serveur de jeu et la base de données MySQL pour sauvegarder de manière persistante les données des joueurs (comptes bancaires, inventaires, véhicules acquis).
+* **Contrôle de version :** Utilisation de GitHub pour suivre les modifications de configuration, collaborer avec l'équipe et revenir rapidement en arrière en cas de conflit.
+
+> **[Insérer Image 2]** : *Capture d'écran de l'interface txAdmin montrant la gestion des ressources démarrées et l'état du serveur.*
+
+---
+
+### 3. Recherche, sélection et adaptation des scripts (R&D Technique)
+
+Intégration et harmonisation des scripts open source pour répondre aux besoins spécifiques du projet :
+
+* **Recherche et veille technique :** Consultation des documentations officielles de FiveM et des forums spécialisés afin d'identifier les ressources les plus optimisées et sans fuites de mémoire.
+* **Configuration des fichiers de paramètres (`config.lua`) :** Traduction complète des messages de jeu en français, ajustement des prix économiques selon les barèmes de l'époque et restriction des fonctionnalités trop modernes.
+* **Résolution de conflits :** Correction des dépendances manquantes, débogage des erreurs de scripts dans la console serveur et fiabilisation des échanges d'événements (events client-serveur).
+
+> **[Insérer Image 3]** : *Extrait de code dans Visual Studio Code montrant l'adaptation d'un fichier de configuration ou le traitement d'une fonction de ressource.*
+
+---
+
+### 4. Conception et stylisation des interfaces NUI (HTML / CSS / JS)
+
+Développement et refonte visuelle des menus de jeu affichés à l'écran via le moteur Chromium intégré de FiveM (NUI) :
+
+* **Intégration HTML/CSS :** Refonte complète de la structure des menus contextuels et boîtes de dialogue afin de remplacer les styles génériques par une identité visuelle rétro soignée.
+* **Design & Animations CSS :** Ajout d'effets visuels typiques (lignes de balayage CRT, ombres lumineuses *box-shadow neon*, bordures géométriques et transitions fluides).
+* **Dynamisation JavaScript :** Réception des événements envoyés par le jeu (`window.addEventListener('message', ...)`) pour ouvrir/fermer l'interface, afficher dynamiquement les informations du joueur et renvoyer les choix cliqués au script de jeu (`fetch(..., {method: 'POST'})`).
+
+> **[Insérer Image 4]** : *Capture comparative avant/après du menu stylisé, ou votre aperçu actuel :* https://postimg.cc/cKFGbCxK
+
+---
+
+### 5. Tests en jeu, optimisation des performances et stabilisation
+
+Validation de l'expérience utilisateur et de la performance technique avant l'ouverture aux joueurs :
+
+* **Tests multi-utilisateurs :** Validation en direct avec les collaborateurs de la synchronisation des menus, des achats et de l'inventaire en conditions de jeu réelles.
+* **Surveillance du Resmon (Ressources Monitor) :** Analyse de la consommation CPU (ms) des scripts NUI et des boucles de jeu pour garantir que le serveur reste fluide (viser moins de 0.04 ms par ressource en veille).
+* **Nettoyage final :** Suppression du code mort, compression des fichiers graphiques/CSS et documentation interne pour la maintenance continue du serveur.
+
+> **[Insérer Image 5]** : *Capture d'écran du moniteur de ressources (`resmon 1`) en jeu montrant les scripts optimisés et l'interface NUI active en contexte de jeu.*
 
 
 
