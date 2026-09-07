@@ -90,6 +90,7 @@ J’ai réalisé l’intégration complète d’une page web en utilisant plusie
 * **GitHub :** https://github.com/MrPoutineQc/veyloria
 * **Aperçu :** https://i.postimg.cc/kX8jvVHK/image.png
 
+<br>
 
 # Projet 2 — Critique de Counter-Strike 2
 
@@ -135,7 +136,97 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 
 * **GitHub :** https://github.com/MrPoutineQc/zwarrren-tp1
 
+<br>
 
+# Projet 3 — Qrypta
+
+## Informations générales
+
+| Information                         | Détails                                                  |
+| ----------------------------------- | -------------------------------------------------------- |
+| **Nom du projet**                   | Qrypta                                                   |
+| **Mention académique ou personnel** | Académique                                               |
+| **Réalisé dans le cadre du cours**  | Programmation Web / Interfaces interactives              |
+| **Individuel ou en équipe**         | Individuel                                               |
+| **Coéquipier**                      | S/O                                                      |
+| **Mon rôle**                        | Designer d'interface & Développeur Front-End             |
+| **Catégorie**                       | Interface Utilisateur (UI/UX) & Programmation interactive |
+
+---
+
+## Technologies utilisées
+
+* **Éditeur :** Visual Studio Code
+* **Langages :** HTML5, CSS3, JavaScript
+* **Framework / outils :** Chart.js
+
+---
+
+## Description du projet
+
+### Résumé
+
+Tableau de bord de style HUD futuriste intégrant de la visualisation de données dynamiques et animées.
+
+### Objectif du projet
+
+Le travail pratique consistait à développer une interface Web riche exploitant la manipulation avancée du DOM et des animations JavaScript. Il était demandé d'intégrer des bibliothèques externes pour générer des représentations graphiques interactives.
+
+### Ma contribution
+
+J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta avec des animations CSS sur mesure. J'ai relié la bibliothèque Chart.js pour afficher des graphiques de données réactifs qui s'adaptent aux actions de l'utilisateur.
+
+---
+
+## Documentation
+
+* **Aperçu du projet :** https://postimg.cc/TyfTsBrf
+
+<br>
+
+# Projet 4 — XpériaLife Roleplay
+
+## Informations générales
+
+| Information                         | Détails                                                                                |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| **Nom du projet**                   | XpériaLife Roleplay (SERVEUR FIVEM)                                                    |
+| **Mention académique ou personnel** | Personnel                                                                              |
+| **Réalisé dans le cadre du cours**  | Projet personnel de gestion et développement d’un serveur FiveM (https://fivem.net/)   |
+| **Individuel ou en équipe**         | En équipe                                                                              |
+| **Coéquipier**                      | Collaborateurs                                                                         |
+| **Mon rôle**                        | Administrateur serveur, Intégrateur UI/NUI et Recherche & Résolution technique          |
+| **Catégorie**                       | Intégration d'interfaces de jeu & Gestion d'infrastructure multijoueur                 |
+
+---
+
+## Technologies utilisées
+
+* **Éditeur :** Visual Studio Code
+* **Langages :** HTML, CSS, JavaScript (NUI)
+* **Framework / outils :** txAdmin, GitHub, Documentation technique en ligne
+
+---
+
+## Description du projet
+
+### Résumé
+
+Serveur roleplay rétro des années 80/90 combinant recherche technique, intégration de ressources et menus NUI personnalisés.
+
+### Objectif du projet
+
+L'objectif était de bâtir un serveur roleplay (jeu de rôle) multijoueur cohérent et stable en adaptant des ressources existantes au thème rétro choisi.
+
+### Ma contribution
+
+J'ai effectué des recherches techniques approfondies sur le Web pour sélectionner, adapter et configurer les scripts nécessaires au bon fonctionnement du serveur. J'ai également personnalisé les interfaces visuelles (NUI) en HTML/CSS/JS et procédé à la consultation des données du serveur pour assurer la stabilité globale.
+
+---
+
+## Documentation
+
+* **Aperçu du projet :** https://postimg.cc/cKFGbCxK
 
 # Processus de création
 Sélectionnez un de vos projets et insérez son processus de création. À l'aide d'images et de texte vous devez nous expliquer le processus de création étape par étape de votre projet. 
