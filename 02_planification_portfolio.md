@@ -158,7 +158,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 
 * **Éditeur :** Visual Studio Code
 * **Langages :** HTML, CSS, JavaScript
-* **Framework / outils :** Chart.js
+* **Framework / outils :** Chart.js, Anime.js, ZDog
 
 ---
 
@@ -184,27 +184,27 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 
 <br>
 
-# Projet 4 — XpériaLife Roleplay
+# Projet 4 — Scootex
 
 ## Informations générales
 
-| Information                         | Détails                                                                                |
-| ----------------------------------- | -------------------------------------------------------------------------------------- |
-| **Nom du projet**                   | XpériaLife Roleplay (SERVEUR FIVEM)                                                    |
-| **Mention académique ou personnel** | Personnel                                                                              |
-| **Réalisé dans le cadre du cours**  | Projet personnel de gestion et développement d’un serveur FiveM (https://fivem.net/)   |
-| **Individuel ou en équipe**         | En équipe                                                                              |
-| **Coéquipier**                      | Collaborateurs                                                                         |
-| **Mon rôle**                        | Administrateur serveur, Intégrateur UI/NUI et Recherche & Résolution technique          |
-| **Catégorie**                       | Intégration d'interfaces de jeu & Gestion d'infrastructure multijoueur                 |
+| Information                         | Détails                                                  |
+| ----------------------------------- | -------------------------------------------------------- |
+| **Nom du projet**                   | Scootex                                                  |
+| **Mention académique ou personnel** | Académique                                               |
+| **Réalisé dans le cadre du cours**  | Gestion de contenu Web (CMS)                              |
+| **Individuel ou en équipe**         | Individuel                                               |
+| **Coéquipier**                      | S/O                                                      |
+| **Mon rôle**                        | Développeur & Intégrateur Web WordPress                  |
+| **Catégorie**                       | Commerce électronique & Gestion de contenu (CMS)         |
 
 ---
 
 ## Technologies utilisées
 
-* **Éditeur :** Visual Studio Code
-* **Langages :** HTML, CSS, JavaScript (NUI)
-* **Framework / outils :** txAdmin, GitHub, Documentation technique en ligne
+* **Plateforme :** WordPress
+* **Extensions / Moteurs :** WooCommerce, Elementor, Advanced Custom Fields (ACF)
+* **Langages :** HTML, CSS
 
 ---
 
@@ -212,84 +212,83 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 
 ### Résumé
 
-Serveur roleplay rétro des années 80/90 combinant recherche technique, intégration de ressources et menus NUI personnalisés.
+Boutique e-commerce moderne et responsive dédiée à la vente de trottinettes électriques et d'équipements de mobilité urbaine.
 
 ### Objectif du projet
 
-L'objectif était de bâtir un serveur roleplay (jeu de rôle) multijoueur cohérent et stable en adaptant des ressources existantes au thème rétro choisi.
+Le travail pratique consistait à concevoir et déployer une plateforme de commerce électronique fonctionnelle en exploitant un système de gestion de contenu. L'objectif était de structurer un catalogue de produits complet doté de métadonnées personnalisées et d'une expérience de navigation ergonomique.
 
 ### Ma contribution
 
-J'ai effectué des recherches techniques approfondies sur le Web pour sélectionner, adapter et configurer les scripts nécessaires au bon fonctionnement du serveur. J'ai également personnalisé les interfaces visuelles (NUI) en HTML/CSS/JS et procédé à la consultation des données du serveur pour assurer la stabilité globale.
+J'ai conçu et mis en page l'ensemble des gabarits du site à l'aide d'Elementor tout en configurant la boutique via WooCommerce. J'ai également modélisé des champs dynamiques avec Advanced Custom Fields (ACF) pour afficher les fiches techniques détaillées de chaque modèle de trottinette.
 
 ---
 
 ## Documentation
 
-* **Aperçu du projet :** https://postimg.cc/cKFGbCxK
+* **Aperçu du projet :** [À insérer]
 
 <br>
 
 # Processus de création
-## Processus de création étape par étape de XpériaLive
+## Processus de création étape par étape de Qrypta
 
-### 1. Planification et direction artistique rétro (Années 80/90)
+### 1. Planification, idéation et direction artistique futuriste (HUD)
 
-La première étape a consisté à poser les fondations de l'univers de jeu afin de garantir une ambiance cohérente avant toute intervention technique :
+La première étape a consisté à définir le concept visuel et l'architecture fonctionnelle de l'interface bancaire afin de garantir une identité cyberpunk/sci-fi cohérente :
 
-* **Définition de l'identité visuelle :** Sélection d'une palette de couleurs d'époque (néons magenta/cyan, teintes ambrées des écrans CRT, dégradés rétro-synthwave) et typographies typiques des années 80/90.
-* **Curation des ressources de jeu :** Sélection et tri des packs de véhicules d'époque, vêtements rétro et suppression des éléments trop contemporains pour préserver l'immersion.
-* **Architecture technique :** Établissement de la liste des dépendances et scripts essentiels au fonctionnement du serveur (gestion de l'inventaire, économie, communications radio/téléphonie).
+* **Définition de l'identité visuelle HUD :** Sélection d'un thème sombre avec des accents néon contrastés (cyan, violet, vert fluo), typographies technologiques angulaires et dispositions modulaires inspirées des affichages tête haute de science-fiction.
+* **Architecture de l'information :** Structuration des différents modules du tableau de bord (solde crypto, flux de transactions, indicateurs de performance, visualiseur 3D et métriques en temps réel).
+* **Zonage et wireframing :** Élaboration d'une grille ergonomique permettant d'afficher une grande densité de données sans nuire à la lisibilité générale de la plateforme.
 
-> **[Insérer Image 1]** : *Moodboard visuel, palette de couleurs rétro ou capture d'un véhicule d'époque intégré en jeu.*
-
----
-
-### 2. Déploiement de l'infrastructure et gestion serveur (txAdmin)
-
-Mise en place de l'environnement d'exécution local et distant pour assurer une base stable :
-
-* **Configuration de txAdmin :** Déploiement et initialisation du serveur FiveM, mise en place des recettes de configuration et gestion du cycle de démarrage des ressources via le fichier `server.cfg`.
-* **Mise en place de la base de données :** Liaison entre le serveur de jeu et la base de données MySQL pour sauvegarder de manière persistante les données des joueurs (comptes bancaires, inventaires, véhicules acquis).
-* **Contrôle de version :** Utilisation de GitHub pour suivre les modifications de configuration, collaborer avec l'équipe et revenir rapidement en arrière en cas de conflit.
-
-> **[Insérer Image 2]** : *Capture d'écran de l'interface txAdmin montrant la gestion des ressources démarrées et l'état du serveur.*
+> **[Insérer Image 1]** : *Moodboard d'inspiration HUD, palette de couleurs néon ou croquis de la disposition modulaire de la grille.*
 
 ---
 
-### 3. Recherche, sélection et adaptation des scripts (R&D Technique)
+### 2. Intégration de la structure et stylisation avancée (HTML5 & CSS3)
 
-Intégration et harmonisation des scripts open source pour répondre aux besoins spécifiques du projet :
+Mise en place du squelette de l'application web et création de l'atmosphère visuelle à l'aide de techniques CSS modernes :
 
-* **Recherche et veille technique :** Consultation des documentations officielles de FiveM et des forums spécialisés afin d'identifier les ressources les plus optimisées et sans fuites de mémoire.
-* **Configuration des fichiers de paramètres (`config.lua`) :** Traduction complète des messages de jeu en français, ajustement des prix économiques selon les barèmes de l'époque et restriction des fonctionnalités trop modernes.
-* **Résolution de conflits :** Correction des dépendances manquantes, débogage des erreurs de scripts dans la console serveur et fiabilisation des échanges d'événements (events client-serveur).
+* **Balisage sémantique HTML5 :** Découpage du tableau de bord en cartes autonomes (*widgets*) pour accueillir les graphiques, les listes de données et les contrôles interactifs.
+* **Mise en page réactive (CSS Grid & Flexbox) :** Construction d'un layout adaptatif garantissant l'alignement parfait des différents panneaux quelle que soit la résolution d'écran.
+* **Effets visuels avancés :** Utilisation intensive de propriétés graphiques (bordures lumineuses `box-shadow`, arrière-plans translucides avec `backdrop-filter: blur`, textures vectorielles en filigrane et animations de balayage).
 
-> **[Insérer Image 3]** : *Extrait de code dans Visual Studio Code montrant l'adaptation d'un fichier de configuration ou le traitement d'une fonction de ressource.*
-
----
-
-### 4. Conception et stylisation des interfaces NUI (HTML / CSS / JS)
-
-Développement et refonte visuelle des menus de jeu affichés à l'écran via le moteur Chromium intégré de FiveM (NUI) :
-
-* **Intégration HTML/CSS :** Refonte complète de la structure des menus contextuels et boîtes de dialogue afin de remplacer les styles génériques par une identité visuelle rétro soignée.
-* **Design & Animations CSS :** Ajout d'effets visuels typiques (lignes de balayage CRT, ombres lumineuses *box-shadow neon*, bordures géométriques et transitions fluides).
-* **Dynamisation JavaScript :** Réception des événements envoyés par le jeu (`window.addEventListener('message', ...)`) pour ouvrir/fermer l'interface, afficher dynamiquement les informations du joueur et renvoyer les choix cliqués au script de jeu (`fetch(..., {method: 'POST'})`).
-
-> **[Insérer Image 4]** : *Capture comparative avant/après du menu stylisé, ou votre aperçu actuel :* https://postimg.cc/cKFGbCxK
+> **[Insérer Image 2]** : *Capture d'écran de l'interface brute sous Visual Studio Code ou aperçu des cartes stylisées avec les effets de lueur néon.*
 
 ---
 
-### 5. Tests en jeu, optimisation des performances et stabilisation
+### 3. Visualisation de données dynamiques (Chart.js)
 
-Validation de l'expérience utilisateur et de la performance technique avant l'ouverture aux joueurs :
+Implémentation des modules graphiques pour transformer les données chiffrées en représentations visuelles claires et interactives :
 
-* **Tests multi-utilisateurs :** Validation en direct avec les collaborateurs de la synchronisation des menus, des achats et de l'inventaire en conditions de jeu réelles.
-* **Surveillance du Resmon (Ressources Monitor) :** Analyse de la consommation CPU (ms) des scripts NUI et des boucles de jeu pour garantir que le serveur reste fluide (viser moins de 0.04 ms par ressource en veille).
-* **Nettoyage final :** Suppression du code mort, compression des fichiers graphiques/CSS et documentation interne pour la maintenance continue du serveur.
+* **Intégration de la bibliothèque Chart.js :** Instanciation de graphiques vectoriels sur des éléments HTML `<canvas>` pour afficher l'évolution des portefeuilles et les variations de marché.
+* **Personnalisation esthétique des graphiques :** Remplacement des styles par défaut par des dégradés néon personnalisés, suppression des grilles encombrantes, ajustement des courbes de Bézier pour lisser les tracés et stylisation des infobulles (*tooltips*).
+* **Gestion des métriques :** Structuration des séries de données pour simuler l'affichage d'actifs cryptographiques avec des mises à jour dynamiques au survol.
 
-> **[Insérer Image 5]** : *Capture d'écran du moniteur de ressources (`resmon 1`) en jeu montrant les scripts optimisés et l'interface NUI active en contexte de jeu.*
+> **[Insérer Image 3]** : *Zoom sur l'un des graphiques de données interactifs ou extrait de code JavaScript configurant les dégradés et options de Chart.js.*
 
+---
+
+### 4. Animation d'éléments 3D et micro-interactions (Zdog & Anime.js)
+
+Dynamisation du tableau de bord afin de renforcer l'aspect HUD interactif et futuriste :
+
+* **Rendu pseudo-3D avec Zdog :** Conception et modélisation d'un élément géométrique tridimensionnel léger en canvas (comme un logo ou un noyau de données rotatif) tournant continuellement en arrière-plan.
+* **Micro-interactions avec Anime.js :** Programmation d'effets d'apparition cinématiques au chargement de la page (déploiement en cascade des modules, compteurs de chiffres incrémentaux, pulsation des indicateurs d'état).
+* **Manipulation événementielle du DOM :** Écoute des interactions de l'utilisateur (clics, survols, filtres temporels) en JavaScript pur pour actualiser instantanément l'état des composants sans rechargement de page.
+
+> **[Insérer Image 4]** : *Aperçu de l'élément 3D Zdog en mouvement ou extrait de la boucle d'animation Anime.js liée aux interactions du tableau de bord.*
+
+---
+
+### 5. Optimisation, tests d'affichage et stabilisation
+
+Validation des performances d'exécution, du rendu visuel et de la réactivité de l'application :
+
+* **Optimisation des performances :** Gestion prudente des boucles d'animation et de la fréquence de rafraîchissement des canvas pour éviter toute baisse de fluidité (60 FPS constants).
+* **Tests multi-résolutions :** Validation de la cohérence de l'interface sur différents ratios d'écran et ajustement des règles CSS `@media` pour préserver l'équilibre visuel du HUD.
+* **Nettoyage et documentation :** Modularisation des scripts JavaScript, minification des ressources et finalisation de la documentation technique du projet.
+
+> **[Insérer Image 5]** : *Capture complète du tableau de bord finalisé en plein écran :* https://postimg.cc/TyfTsBrf
 
 
