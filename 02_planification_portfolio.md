@@ -287,8 +287,8 @@ Dynamisation du tableau de bord afin de renforcer l'aspect HUD interactif et fut
 
 Validation des performances d'exécution, du rendu visuel et de la réactivité de l'application :
 
-* **Optimisation des performances :** Gestion prudente des boucles d'animation et de la fréquence de rafraîchissement des canvas pour éviter toute baisse de fluidité (60 FPS constants).
-* **Tests multi-résolutions :** Validation de la cohérence de l'interface sur différents ratios d'écran et ajustement des règles CSS `@media` pour préserver l'équilibre visuel du HUD.
+* **Optimisation des performances :** Gestion prudente des boucles d'animation et de la fréquence de rafraîchissement des canvas pour éviter toute baisse de fluidité ).
+* **Tests multi-résolutions :** Validation de la cohérence de l'interface sur différents ratios d'écran pour préserver l'équilibre visuel du HUD.
 * **Nettoyage et documentation :** Modularisation des scripts JavaScript, minification des ressources et finalisation de la documentation technique du projet.
 
 [> *Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
