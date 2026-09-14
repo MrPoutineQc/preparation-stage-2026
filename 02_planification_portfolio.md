@@ -158,7 +158,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 
 * **Éditeur :** Visual Studio Code
 * **Langages :** HTML, CSS, JavaScript
-* **Framework / outils :** Chart.js, Anime.js, ZDog
+* **Framework / outils :** Chart.js, Anime.js, ZDog, tone.js, vfx.js, maplibre
 
 ---
 
@@ -179,6 +179,8 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 ---
 
 ## Documentation
+https://www.figma.com/design/lBWtzsOKYsk4MhaqdRFQxy/WEB-3---TP2-HUD?node-id=0-1&t=GI8MiE8inmbPK1Z7-1
+https://github.com/MrPoutineQc/qrypta
 
 * **Aperçu du projet :** https://postimg.cc/TyfTsBrf
 
@@ -225,6 +227,7 @@ J'ai conçu et mis en page l'ensemble des gabarits du site à l'aide d'Elementor
 ---
 
 ## Documentation
+https://202496312.tim-momo.com/warren_zackary_final/
 
 * **Aperçu du projet :** [À insérer]
 
