@@ -158,7 +158,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 
 * **Éditeur :** Visual Studio Code
 * **Langages :** HTML, CSS, JavaScript
-* **Framework / outils :** Chart.js, Anime.js, ZDog
+* **Framework / outils :** Chart.js, Anime.js, ZDog, tone.js, vfx.js, maplibre
 
 ---
 
