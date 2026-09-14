@@ -88,6 +88,7 @@ J’ai réalisé l’intégration complète d’une page web en utilisant plusie
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/veyloria
+<br>
 [* **Aperçu :** ](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png)
 
 <br>
@@ -135,6 +136,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/zwarrren-tp1
+<br>
 [* Site Web](https://mrpoutineqc.github.io/zwarrren-tp1/)
 
 <br>
@@ -183,7 +185,7 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 https://www.figma.com/design/lBWtzsOKYsk4MhaqdRFQxy/WEB-3---TP2-HUD?node-id=0-1&t=GI8MiE8inmbPK1Z7-1
 https://mrpoutineqc.github.io/qrypta/
 
-[> *Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
+[*Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
 
 <br>
 
