@@ -147,7 +147,7 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 | ----------------------------------- | -------------------------------------------------------- |
 | **Nom du projet**                   | Qrypta                                                   |
 | **Mention académique ou personnel** | Académique                                               |
-| **Réalisé dans le cadre du cours**  | Programmation Web / Interfaces interactives              |
+| **Réalisé dans le cadre du cours**  | Web 3                                                    |
 | **Individuel ou en équipe**         | Individuel                                               |
 | **Coéquipier**                      | S/O                                                      |
 | **Mon rôle**                        | Designer d'interface & Développeur Front-End             |
@@ -195,7 +195,7 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 | ----------------------------------- | -------------------------------------------------------- |
 | **Nom du projet**                   | Scootex                                                  |
 | **Mention académique ou personnel** | Académique                                               |
-| **Réalisé dans le cadre du cours**  | Gestion de contenu Web (CMS)                              |
+| **Réalisé dans le cadre du cours**  | Web 4                                                    |
 | **Individuel ou en équipe**         | Individuel                                               |
 | **Coéquipier**                      | S/O                                                      |
 | **Mon rôle**                        | Développeur & Intégrateur Web WordPress                  |
