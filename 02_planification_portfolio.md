@@ -182,7 +182,7 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 https://www.figma.com/design/lBWtzsOKYsk4MhaqdRFQxy/WEB-3---TP2-HUD?node-id=0-1&t=GI8MiE8inmbPK1Z7-1
 https://mrpoutineqc.github.io/qrypta/
 
-* **Aperçu du projet :** https://postimg.cc/TyfTsBrf
+[> *Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
 
 <br>
 
@@ -267,8 +267,6 @@ Implémentation des modules graphiques pour transformer les données chiffrées 
 * **Intégration de la bibliothèque Chart.js :** Instanciation de graphiques vectoriels sur des éléments HTML `<canvas>` pour afficher l'évolution des portefeuilles et les variations de marché.
 * **Personnalisation esthétique des graphiques :** Remplacement des styles par défaut par des dégradés néon personnalisés, suppression des grilles encombrantes, ajustement des courbes de Bézier pour lisser les tracés et stylisation des infobulles (*tooltips*).
 * **Gestion des métriques :** Structuration des séries de données pour simuler l'affichage d'actifs cryptographiques avec des mises à jour dynamiques au survol.
-
-> **[Insérer Image 3]** : *Zoom sur l'un des graphiques de données interactifs ou extrait de code JavaScript configurant les dégradés et options de Chart.js.*
 
 ---
 
