@@ -179,6 +179,8 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 ---
 
 ## Documentation
+https://www.figma.com/design/lBWtzsOKYsk4MhaqdRFQxy/WEB-3---TP2-HUD?node-id=0-1&t=GI8MiE8inmbPK1Z7-1
+https://github.com/MrPoutineQc/qrypta
 
 * **Aperçu du projet :** https://postimg.cc/TyfTsBrf
 
