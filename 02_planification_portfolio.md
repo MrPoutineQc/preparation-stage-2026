@@ -88,7 +88,7 @@ J’ai réalisé l’intégration complète d’une page web en utilisant plusie
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/veyloria
-* **Site web :** https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png
+* **Visuel que j'ai fait:** https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png
 
 <br>
 
