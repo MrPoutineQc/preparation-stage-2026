@@ -88,7 +88,6 @@ J’ai réalisé l’intégration complète d’une page web en utilisant plusie
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/veyloria
-<br>
 * **Site web :** https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png
 
 <br>
@@ -136,7 +135,6 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/zwarrren-tp1
-<br>
 * **Site web :** https://mrpoutineqc.github.io/zwarrren-tp1/
 
 <br>
