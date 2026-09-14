@@ -38,7 +38,7 @@ Cochez les langages avec lesquels vous êtes à l'aise. Ajoutez-en au besoin.:
 - [x] JavaScript
 - [ ] PHP
 - [ ] SQL
-- [ ] C# (Unity)
+- [x] C# (Unity)
 - [ ] C++ (Arduino)
 - [x] Connaissance de systèmes de gestion de contenu (CMS)
 
