@@ -88,7 +88,8 @@ J’ai réalisé l’intégration complète d’une page web en utilisant plusie
 ## Documentation
 
 * **GitHub :** https://github.com/MrPoutineQc/veyloria
-* **Visuel que j'ai fait:** https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png
+* **Visuel que j'ai fait:**
+![Alt text](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/veyloria_card.png)
 
 <br>
 
@@ -137,6 +138,13 @@ J’ai conçu la mise en page complète autour de l’univers de *Counter-Strike
 * **GitHub :** https://github.com/MrPoutineQc/zwarrren-tp1
 * **Site web :** https://mrpoutineqc.github.io/zwarrren-tp1/
 
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+
+  <img src="https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/cs2_2.png" width="50%">
+  <img src="https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/cs2_1.png" width="50%">
+
+</div>
+
 <br>
 
 # Projet 3 — Qrypta
@@ -183,7 +191,7 @@ J'ai élaboré un design de type tableau de bord d’une banque du nom de Qrypta
 * **Moodboard:** https://www.figma.com/design/lBWtzsOKYsk4MhaqdRFQxy/WEB-3---TP2-HUD?node-id=0-1&t=GI8MiE8inmbPK1Z7-1
 * **Github :** https://mrpoutineqc.github.io/qrypta/
 
-[*Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
+![*Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
 
 <br>
 
@@ -230,7 +238,7 @@ J'ai conçu et mis en page l'ensemble des gabarits du site à l'aide d'Elementor
 ## Documentation
 https://202496312.tim-momo.com/warren_zackary_final/
 
-[*Image page principale* ](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/scootex_menu.png)
+![*Image page principale* ](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/scootex_menu.png)
 
 <br>
 
@@ -245,7 +253,7 @@ La première étape a consisté à définir le concept visuel et l'architecture 
 * **Architecture de l'information :** Structuration des différents modules du tableau de bord (solde crypto, flux de transactions, indicateurs de performance, visualiseur 3D et métriques en temps réel).
 * **Zonage et wireframing :** Élaboration d'une grille ergonomique permettant d'afficher une grande densité de données sans nuire à la lisibilité générale de la plateforme.
 
-> [*Moodboard*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_moodbard.png)
+> ![*Moodboard*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_moodbard.png)
 
 ---
 
@@ -257,7 +265,7 @@ Mise en place du squelette de l'application web et création de l'atmosphère vi
 * **Mise en page réactive (CSS Grid & Flexbox) :** Construction d'un layout adaptatif garantissant l'alignement parfait des différents panneaux quelle que soit la résolution d'écran.
 * **Effets visuels avancés :** Utilisation intensive de propriétés graphiques (bordures lumineuses `box-shadow`, arrière-plans translucides avec `backdrop-filter: blur`, textures vectorielles en filigrane et animations de balayage).
 
-> [*Code du projets*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_vscode.png)
+> ![*Code du projets*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_vscode.png)
 
 ---
 
@@ -279,7 +287,10 @@ Dynamisation du tableau de bord afin de renforcer l'aspect HUD interactif et fut
 * **Micro-interactions avec Anime.js :** Programmation d'effets d'apparition cinématiques au chargement de la page (déploiement en cascade des modules, compteurs de chiffres incrémentaux, pulsation des indicateurs d'état).
 * **Manipulation événementielle du DOM :** Écoute des interactions de l'utilisateur (clics, survols, filtres temporels) en JavaScript pur pour actualiser instantanément l'état des composants sans rechargement de page.
 
-> [Animation](https://youtu.be/QQggqlVq3uM)
+
+**Vidéo de l'animation complète**
+
+> [![Animation](https://img.youtube.com/vi/QQggqlVq3uM/maxresdefault.jpg)](https://youtu.be/QQggqlVq3uM)
 
 ---
 
@@ -291,6 +302,6 @@ Validation des performances d'exécution, du rendu visuel et de la réactivité 
 * **Tests multi-résolutions :** Validation de la cohérence de l'interface sur différents ratios d'écran pour préserver l'équilibre visuel du HUD.
 * **Nettoyage et documentation :** Modularisation des scripts JavaScript, minification des ressources et finalisation de la documentation technique du projet.
 
-[> *Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
+![> *Capture complète du tableau de bord finalisé en plein écran*](https://github.com/MrPoutineQc/preparation-stage-2026/blob/main/media/qrypta_final.png)
 
 
